@@ -14,5 +14,9 @@ def initialize(name, balance =1000, status ='open')
   def display_balance
      "Your balance is $#{balance}."
   end 
+  
+  def valid?
+   if status ='open' && balance > 0 
+   end 
  
 end
