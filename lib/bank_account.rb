@@ -7,7 +7,7 @@ def initialize(name, balance =1000, status ='open')
  @status = status
  end
  
-  def deposit(receiver)
+  def deposit
    self.deposit
   end 
   
