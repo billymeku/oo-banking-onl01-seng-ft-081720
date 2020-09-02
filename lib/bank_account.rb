@@ -17,7 +17,7 @@ def initialize(name)
   end 
   
   def valid?
-    status ="open" && balance > 0 
+     balance > 0 && status ="open"
    end 
    
    def close_account
