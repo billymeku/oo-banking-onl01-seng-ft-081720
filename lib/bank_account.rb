@@ -20,5 +20,9 @@ def initialize(name, balance =1000, status ='open')
    if status ='open' && balance > 0 
    end 
    end 
+   
+   def close_account
+     
+   end 
  
 end
