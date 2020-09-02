@@ -18,14 +18,12 @@ def initialize(name)
   
   def valid?
    if @status ="open" && @balance > 0 
-     false  
-    else 
-      true  
+  
    end 
    end 
    
    def close_account
-     @status = "close"
+     @status = "closed"
    end 
  
 end
