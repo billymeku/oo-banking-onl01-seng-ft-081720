@@ -22,8 +22,8 @@ class Transfer
       self.status = "complete"
     else
       reject_transfer
-  end 
+     end 
+  end
   
-end 
-  
+def 
 end
