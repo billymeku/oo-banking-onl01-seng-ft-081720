@@ -14,6 +14,8 @@ class Transfer
   def vaild?
   end 
   
-  def 
+  def execute_transaction
+    
+  end 
   
 end
