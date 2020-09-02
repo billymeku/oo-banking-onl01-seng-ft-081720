@@ -34,5 +34,6 @@ def reverse_transfer
     else 
        reject_transfer
   end
-  
 end
+
+end 
