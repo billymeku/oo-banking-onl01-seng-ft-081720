@@ -18,7 +18,7 @@ def initialize(name)
   
   def valid?
    if @status ="open" && @balance > 0 
-     fale  
+     false  
     else 
       true  
    end 
