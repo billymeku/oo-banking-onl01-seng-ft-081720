@@ -14,4 +14,6 @@ class Transfer
   def vaild?
   end 
   
+  def 
+  
 end
