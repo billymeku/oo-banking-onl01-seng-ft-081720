@@ -11,8 +11,8 @@ class Transfer
     @status = "pending"
   end 
   
-  def vaild?
-    @sender.vaild? && @receiver.vaild?
+  def valid?
+    @sender.valid? && @receiver.vaild?
   end 
   
   def execute_transaction
