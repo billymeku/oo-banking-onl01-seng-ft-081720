@@ -11,8 +11,8 @@ def initialize(name, balance =1000, status ='open')
     @balance << money
   end 
   
-  def display_balance
-     "Your balance is $ #{balance}."
+  def display_balance(balance)
+     "Your balance is $#{balance}."
   end 
  
 end
