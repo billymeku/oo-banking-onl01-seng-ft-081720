@@ -8,8 +8,7 @@ def initialize(name, balance =1000, status ='open')
  end
  
   def deposit(receiver)
-    @balance << receiver 
-    receiver.balance << self 
+   self.deposit
   end 
   
   def display_balance
@@ -22,7 +21,7 @@ def initialize(name, balance =1000, status ='open')
    end 
    
    def close_account
-     
+     name.close 
    end 
  
 end
