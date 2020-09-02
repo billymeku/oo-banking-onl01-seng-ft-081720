@@ -12,6 +12,7 @@ class Transfer
   end 
   
   def vaild?
+    sender.vaild? && receiver.vaild?
   end 
   
   def execute_transaction
