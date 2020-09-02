@@ -9,9 +9,9 @@ class Transfer
     @receiver = receiver
     @amount = amount
     @status = "pending"
-  
-    
   end 
   
+  def vaild?
+  end 
   
 end
