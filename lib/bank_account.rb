@@ -24,7 +24,7 @@ def initialize(name)
    end 
    
    def close_account
-     name.close 
+     @status = "close"
    end 
  
 end
