@@ -9,6 +9,7 @@ def initialize(name, balance =1000, status ='open')
  
   def deposit(receiver)
     @balance << receiver 
+    receiver.balance << self 
   end 
   
   def display_balance
